@@ -1,0 +1,168 @@
+2026-04-20 22:48:12,239 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-04-20 22:48:12,241 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2026-04-20 23:04:11,240 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-04-20 23:04:11,242 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2026-04-20 23:06:33,074 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-04-20 23:06:33,076 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2026-04-20 23:19:38,736 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-04-20 23:19:38,738 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2026-04-20 23:33:33,505 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-04-20 23:33:33,509 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2026-04-20 23:36:39,502 - INFO - Predict: 0.5501 | ResTime: 0.3480s | CPU: 0.0% | RAM: 81.1%
+2026-04-20 23:39:26,843 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-04-20 23:39:26,847 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2026-04-20 23:39:44,826 - INFO - Predict: 0.5777 | ResTime: 0.3630s | CPU: 0.0% | RAM: 83.7%
+2026-04-20 23:40:54,396 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-04-20 23:40:54,401 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2026-04-20 23:41:03,608 - INFO - Predict: 0.4441 | ResTime: 0.3530s | CPU: 0.0% | RAM: 84.6%
+2026-04-20 23:43:23,997 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-04-20 23:43:23,999 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2026-04-20 23:43:38,953 - INFO - Predict: 0.5542 | ResTime: 0.3525s | CPU: 0.0% | RAM: 84.1%
+2026-04-20 23:44:00,780 - INFO - Predict: 0.4808 | ResTime: 0.0660s | CPU: 16.8% | RAM: 84.1%
+2026-04-28 17:48:49,388 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-04-28 17:48:49,396 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2026-04-28 17:53:22,284 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-04-28 17:53:22,287 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2026-04-28 17:53:37,628 - INFO - Predict: R$0.66 | ResTime: 0.4608s | CPU: 0.0% | RAM: 64.0%
+2026-04-28 18:03:13,987 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-04-28 18:03:13,990 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2026-04-28 19:35:56,890 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-04-28 19:35:56,892 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2026-04-28 19:35:56,893 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-04-28 19:35:56,896 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2026-04-28 19:47:34,047 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-04-28 19:47:34,051 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2026-04-28 19:51:24,204 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-04-28 19:51:24,207 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2026-04-28 19:53:38,861 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-04-28 19:53:38,864 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2026-04-28 19:56:09,077 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-04-28 19:56:09,079 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2026-04-28 19:57:34,513 - INFO - Predict: 0.3820 | ResTime: 0.5520s | CPU: 36.1% | RAM: 65.7%
+2026-04-28 20:03:09,231 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-04-28 20:03:09,234 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2026-04-28 20:04:02,269 - INFO - Predict: 0.3777 | ResTime: 0.4437s | CPU: 0.0%
+2026-04-28 20:06:09,034 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-04-28 20:06:09,038 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2026-04-28 20:08:40,526 - INFO - Predict: 0.4167 | ResTime: 0.4485s | CPU: 0.0%
+2026-04-28 20:16:08,829 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-04-28 20:16:08,832 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2026-04-28 21:06:39,722 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-04-28 21:06:39,725 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2026-04-30 17:49:14,265 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-04-30 17:49:14,268 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2026-04-30 17:49:45,032 - INFO - Predict: 84.4657 | ResTime: 0.4691s | CPU: 0.0%
+2026-04-30 17:50:00,274 - INFO - Predict: 84.4657 | ResTime: 0.0819s | CPU: 0.0%
+2026-04-30 17:52:31,300 - INFO - Predict: 84.4657 | ResTime: 0.0775s | CPU: 0.0%
+2026-04-30 17:56:43,935 - INFO - Predict: 84.4657 | ResTime: 0.0809s | CPU: 0.0%
+2026-04-30 17:56:51,324 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-04-30 17:56:51,327 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2026-04-30 17:59:01,874 - INFO - Predict: 44.1008 | ResTime: 0.4327s | CPU: 0.0%
+2026-04-30 18:01:31,121 - INFO - Predict: 44.1008 | ResTime: 0.0783s | CPU: 0.0%
+2026-04-30 18:37:41,752 - INFO - Predict: 44.1008 | ResTime: 0.0833s | CPU: 0.0%
+2026-04-30 18:38:07,104 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-04-30 18:38:07,108 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2026-04-30 18:40:49,652 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-04-30 18:40:49,655 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2026-04-30 18:44:04,664 - INFO - Predict: 44.1008 | ResTime: 0.4766s | CPU: 0.0%
+2026-04-30 18:46:35,556 - INFO - Predict: 44.1008 | ResTime: 0.0831s | CPU: 0.0%
+2026-04-30 18:46:58,382 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-04-30 18:46:58,384 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2026-04-30 18:47:06,615 - INFO - Predict: 41.3345 | ResTime: 0.4294s | CPU: 0.0%
+2026-04-30 19:06:42,156 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-04-30 19:08:03,766 - INFO - Predict: 43.4621 | ResTime: 0.4292s | CPU: 0.0%
+2026-04-30 19:19:10,097 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-04-30 19:21:29,230 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-04-30 19:22:22,787 - INFO - Input Shape: (60, 5) | Últimos valores:
+[[4.80999985e+01 4.92999992e+01 4.80000000e+01 4.89599991e+01
+  4.76850000e+07]
+ [4.88100014e+01 4.93800011e+01 4.82900009e+01 4.90800018e+01
+  3.65297000e+07]]
+2026-04-30 19:22:23,253 - INFO - Predict: 42.0908 | ResTime: 0.4662s | CPU: 0.0%
+2026-04-30 19:26:30,713 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-04-30 19:27:35,270 - INFO - Input Shape: (60, 5) | Últimos valores:
+[[4.80999985e+01 4.92999992e+01 4.80000000e+01 4.89599991e+01
+  4.76850000e+07]
+ [4.88100014e+01 4.93800011e+01 4.82900009e+01 4.90800018e+01
+  3.65297000e+07]]
+2026-04-30 19:27:35,732 - INFO - Predict: 42.0908 | ResTime: 0.4616s | CPU: 0.0%
+2026-04-30 19:28:31,302 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-04-30 19:29:02,616 - INFO - Input Shape: (60, 5) | Últimos valores:
+[[4.80999985e+01 4.92999992e+01 4.80000000e+01 4.89599991e+01
+  4.76850000e+07]
+ [4.88100014e+01 4.93800011e+01 4.82900009e+01 4.90800018e+01
+  3.65297000e+07]]
+2026-04-30 19:29:03,061 - INFO - Predict: 42.0908 | ResTime: 0.4457s | CPU: 0.0%
+2026-04-30 19:33:32,085 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-04-30 19:33:32,192 - INFO - Input Shape: (60, 5) | Últimos valores:
+[[4.80999985e+01 4.92999992e+01 4.80000000e+01 4.89599991e+01
+  4.76850000e+07]
+ [4.88100014e+01 4.93800011e+01 4.82900009e+01 4.90800018e+01
+  3.65297000e+07]]
+2026-04-30 19:33:32,625 - INFO - Predict: 42.0908 | ResTime: 0.4329s | CPU: 0.0%
+2026-04-30 19:35:10,674 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-04-30 19:35:31,518 - INFO - Input Shape: (60, 5) | Últimos valores:
+[[4.80999985e+01 4.92999992e+01 4.80000000e+01 4.89599991e+01
+  4.76850000e+07]
+ [4.88100014e+01 4.93800011e+01 4.82900009e+01 4.90800018e+01
+  3.65297000e+07]]
+2026-04-30 19:35:32,049 - INFO - Predict: 43.2000 | ResTime: 0.5320s | CPU: 0.0%
+2026-04-30 19:35:51,900 - INFO - Input Shape: (60, 5) | Últimos valores:
+[[2.67549988e+02 2.71040009e+02 2.67040009e+02 2.70170013e+02
+  3.00479000e+07]
+ [2.70500000e+02 2.75940002e+02 2.68140015e+02 2.71350006e+02
+  8.38150400e+07]]
+2026-04-30 19:35:52,024 - INFO - Predict: 71.5700 | ResTime: 0.1235s | CPU: 0.0%
+2026-04-30 19:45:12,414 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-04-30 19:46:25,520 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-04-30 19:47:43,877 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-04-30 19:48:02,172 - INFO - Input Shape: (60, 5) | Últimos valores:
+[[4.80999985e+01 4.92999992e+01 4.80000000e+01 4.89599991e+01
+  4.76850000e+07]
+ [4.88100014e+01 4.93800011e+01 4.82900009e+01 4.90800018e+01
+  3.65297000e+07]]
+2026-04-30 19:48:02,636 - INFO - Predict: 43.1547 | ResTime: 0.4643s | CPU: 0.0%
+2026-04-30 19:52:37,137 - INFO - Input Shape: (60, 5) | Últimos valores:
+[[4.80999985e+01 4.92999992e+01 4.80000000e+01 4.89599991e+01
+  4.76850000e+07]
+ [4.88100014e+01 4.93800011e+01 4.82900009e+01 4.90800018e+01
+  3.65297000e+07]]
+2026-04-30 19:52:37,221 - INFO - Predict: 43.1547 | ResTime: 0.0845s | CPU: 0.0%
+2026-04-30 19:54:52,540 - INFO - Input Shape: (60, 5) | Últimos valores:
+[[4.80999985e+01 4.92999992e+01 4.80000000e+01 4.89599991e+01
+  4.76850000e+07]
+ [4.88100014e+01 4.93800011e+01 4.82900009e+01 4.90800018e+01
+  3.65297000e+07]]
+2026-04-30 19:54:52,652 - INFO - Predict: 43.1547 | ResTime: 0.1120s | CPU: 0.0%
+2026-05-12 14:10:07,451 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-05-12 14:14:54,549 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-05-12 14:21:24,696 - INFO - Input Shape: (60, 5) | Últimos valores:
+[[4.62099991e+01 4.65099983e+01 4.56500015e+01 4.64300003e+01
+  5.06222000e+07]
+ [4.62500000e+01 4.62500000e+01 4.54000015e+01 4.56599998e+01
+  5.40011000e+07]]
+2026-05-12 14:21:25,138 - INFO - Predict: 44.8981 | ResTime: 0.4422s | CPU: 0.0%
+2026-05-12 14:21:32,025 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-05-12 16:00:46,416 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-05-12 16:00:53,324 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-05-12 17:20:50,580 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-05-12 17:23:05,170 - INFO - Input Shape: (60, 5) | Últimos valores:
+[[4.62099991e+01 4.65099983e+01 4.56500015e+01 4.64300003e+01
+  5.06222000e+07]
+ [4.62500000e+01 4.62500000e+01 4.54000015e+01 4.56800003e+01
+  7.72973000e+07]]
+2026-05-12 17:23:05,728 - INFO - Predict: 32.3142 | ResTime: 0.5583s | CPU: 0.0%
+2026-05-12 17:23:58,470 - INFO - Input Shape: (60, 5) | Últimos valores:
+[[4.62099991e+01 4.65099983e+01 4.56500015e+01 4.64300003e+01
+  5.06222000e+07]
+ [4.62500000e+01 4.62500000e+01 4.54000015e+01 4.56800003e+01
+  7.72973000e+07]]
+2026-05-12 17:23:58,590 - INFO - Predict: 32.3142 | ResTime: 0.1206s | CPU: 0.0%
+2026-05-12 17:40:28,660 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-05-12 17:40:46,313 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-05-12 17:41:24,963 - INFO - Input Shape: (60, 5) | Últimos valores:
+[[4.62099991e+01 4.65099983e+01 4.56500015e+01 4.64300003e+01
+  5.06222000e+07]
+ [4.62500000e+01 4.62500000e+01 4.54000015e+01 4.56800003e+01
+  8.09989000e+07]]
+2026-05-12 17:41:25,330 - INFO - Predict: 42.7869 | ResTime: 0.3673s | CPU: 0.0%
