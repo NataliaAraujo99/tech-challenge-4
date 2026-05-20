@@ -590,38 +590,3 @@ streamlit run app_streamlit.py
 | Dados insuficientes | O Streamlit requer 60 dias de dados. Tente outro ticker |
 | MAPE muito alto | Pode indicar dados fora de padrão. Retreine o modelo |
 
----
-
-## 📖 Referências
-
-- [TensorFlow/Keras LSTM](https://www.tensorflow.org/api_docs/python/tf/keras/layers/LSTM)
-- [FastAPI](https://fastapi.tiangolo.com/)
-- [Streamlit](https://docs.streamlit.io/)
-- [Prometheus](https://prometheus.io/docs/)
-- [yfinance](https://github.com/ranaroussi/yfinance)
-- [scikit-learn Preprocessing](https://scikit-learn.org/stable/modules/preprocessing.html)
-
----
-
-## 📄 Licença
-
-MIT
-
----
-
-## 👥 Autores
-
-**Tech Challenge FIAP** - Equipe de IA Financeira
-
----
-
-## 📞 Suporte
-
-Para dúvidas ou problemas:
-1. Verifique os logs em `logs/api.log`
-2. Consulte o Swagger em `http://localhost:8000/docs`
-3. Revise as métricas em `http://localhost:9090`
-
----
-
-**Última atualização:** 19/05/2026
