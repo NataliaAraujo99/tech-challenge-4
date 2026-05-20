@@ -4,6 +4,8 @@ import numpy as np
 import pandas as pd
 import json
 import yfinance as yf
+import altair as alt
+import joblib
 
 # =========================
 # CONFIG
@@ -72,7 +74,37 @@ input {
 
 /* LABELS */
 label {
-    color: white !important;
+    color: black !important;
+}
+
+/* GRÁFICOS - Fundo preto */
+[data-testid="stChart"] {
+    background-color: black !important;
+}
+
+[data-testid="stLineChart"] {
+    background-color: black !important;
+}
+
+/* Plotly charts background */
+.plotly-graph-div {
+    background-color: black !important;
+}
+
+svg {
+    background-color: black !important;
+}
+
+/* Canvas charts */
+canvas {
+    background-color: black !important;
+}
+
+/* Sidebar titles - Cinza escuro */
+[data-testid="stSidebar"] h2,
+[data-testid="stSidebar"] h3,
+[data-testid="stSidebar"] h4 {
+    color: #666666 !important;
 }
 
 </style>
@@ -81,12 +113,14 @@ label {
 # =========================
 # HEADER
 # =========================
-st.markdown('<p class="title">📈 IA de Previsão de Ações</p>', unsafe_allow_html=True)
-st.write("Simulação de previsão com modelo LSTM")
+st.markdown('<p class="title">📈 IA de Previsão de Ações - PETR4</p>', unsafe_allow_html=True)
+st.write("Previsão de fechamento usando modelo LSTM")
 
 # =========================
 # GERAR DADOS
 # =========================
+TICKER = "PETR4.SA"
+
 def buscar_dados_reais(ticker):
     try:
         # Baixa os dados históricos (4 meses para garantir que teremos 60 dias úteis)
@@ -98,6 +132,11 @@ def buscar_dados_reais(ticker):
         # Ajuste para versões novas do yfinance: remove o nível extra de colunas (Ticker)
         if isinstance(df_ticker.columns, pd.MultiIndex):
             df_ticker.columns = df_ticker.columns.get_level_values(0)
+        
+        # Remove o último dia se estiver com dados incompletos (Open=0)
+        # Isso ocorre quando o mercado ainda está aberto
+        if df_ticker['Open'].iloc[-1] == 0:
+            df_ticker = df_ticker[:-1]
         
         # Seleciona apenas as colunas necessárias e os últimos 60 registros
         df_ticker = df_ticker[['Open', 'High', 'Low', 'Close', 'Volume']].tail(60)
@@ -112,24 +151,8 @@ def buscar_dados_reais(ticker):
         return None
 
 if "df" not in st.session_state or st.session_state.df is None:
-    # Ticker padrão (ex: PETR4.SA para Petrobras ou AAPL para Apple)
-    st.session_state.df = buscar_dados_reais("PETR4.SA")
-
-# =========================
-# BOTÕES
-# =========================
-col1, col2 = st.columns([2, 1])
-
-with col1:
-    ticker_input = st.text_input("Digite o Ticker da Ação (Yahoo Finance)", value="PETR4.SA")
-
-with col2:
-    st.write("##")
-    if st.button("🔍 Buscar Dados Oficiais"):
-        resultado = buscar_dados_reais(ticker_input)
-        if resultado is not None:
-            st.session_state.df = resultado
-            st.success(f"Dados de {ticker_input} carregados!")
+    with st.spinner("📊 Carregando dados de PETR4.SA..."):
+        st.session_state.df = buscar_dados_reais(TICKER)
 
 # =========================
 # GRÁFICO
@@ -143,7 +166,30 @@ if st.session_state.df is None:
 ultima_data = st.session_state.df.index[-1].strftime('%d/%m/%Y')
 st.caption(f"Dados analisados até: **{ultima_data}**. A previsão refere-se ao próximo dia útil.")
 
-st.line_chart(st.session_state.df["Close"])
+# Preparar dados para Altair
+df_chart = st.session_state.df[['Close']].reset_index()
+df_chart.columns = ['Data', 'Close']
+
+# Criar gráfico com Altair
+chart = alt.Chart(df_chart).mark_line(
+    color='#00ffcc',
+    size=2
+).encode(
+    x=alt.X('Data:T', title='Data', axis=alt.Axis(labelAngle=45, labelColor='white', titleColor='white')),
+    y=alt.Y('Close:Q', title='Preço de Fechamento (R$)', axis=alt.Axis(labelColor='white', titleColor='white')),
+    tooltip=['Data:T', 'Close:Q']
+).properties(
+    width='container',
+    height=400,
+    background='black'
+).configure(
+    background='black'
+).configure_axis(
+    grid=True,
+    gridColor='#333333'
+)
+
+st.altair_chart(chart, use_container_width=True)
 
 # =========================
 # MÉTRICAS DE TREINO
@@ -153,8 +199,9 @@ try:
         metrics = json.load(f)
     
     st.sidebar.markdown("### 🎯 Precisão do Modelo")
-    st.sidebar.write(f"**MAPE:** {metrics['mape']:.2e}%")
-    st.sidebar.write(f"**MAE:** R$ {metrics['mae']:.4f}")
+    st.sidebar.write(f"**MAPE:** {metrics['mape']:.2f}%")
+    st.sidebar.write(f"**MAE:** R$ {metrics['mae']:.2f}".replace('.', ','))
+    st.sidebar.write(f"**RMSE:** R$ {metrics['rmse']:.2f}".replace('.', ','))
     
     precisao = 100 - metrics['mape']
     st.sidebar.progress(min(max(precisao/100, 0.0), 1.0))
@@ -184,6 +231,8 @@ if st.button("🔮 Fazer previsão"):
         st.dataframe(st.session_state.df.tail(5))
         st.write(f"**Min no período:** {st.session_state.df.values.min():.2f}")
         st.write(f"**Max no período:** {st.session_state.df.values.max():.2f}")
+        st.write(f"**Primeiros valores a enviar:** {np.array(dados[:2])}")
+        st.write(f"**Últimos valores a enviar:** {np.array(dados[-2:])}")
 
     with st.spinner("🤖 IA analisando dados..."):
 
@@ -206,9 +255,9 @@ if st.button("🔮 Fazer previsão"):
                     st.markdown(f"""
                     <div class="card">
                         <p style='margin:0; font-size:14px; color:#aaa;'>💰 Preço previsto (Próximo Fechamento)</p>
-                        <h1 style='margin:0; color:#00ffcc;'>R$ {pred:.4f}</h1>
+                        <h1 style='margin:0; color:#00ffcc;'>R$ {pred:.2f}</h1>
                     </div>
-                    """, unsafe_allow_html=True)
+                    """.replace('.', ','), unsafe_allow_html=True)
 
                 with res_col2:
                     # Lógica de tendência baseada no último fechamento, não na média de todo o período.
@@ -222,22 +271,13 @@ if st.button("🔮 Fazer previsão"):
                     else:
                         st.error(f"📉 Tendência de BAIXA (−R$ {abs(delta):.4f} em relação ao último fechamento)")
                 
-                # =========================
-                # SEÇÃO DE MONITORAMENTO (NOVO)
-                # =========================
-                st.markdown("---")
-                st.subheader("🖥️ Monitoramento do Modelo (Métricas em Tempo Real)")
-                
-                m1, m2, m3, m4 = st.columns(4)
-                
-                # Latência
-                m1.metric("Latência", f"{result['latency_s']}s")
-                # Throughput (Requisições totais nesta sessão da API)
-                m2.metric("Total de Requisições", int(result['total_requests']))
-                # CPU do Processo
-                m3.metric("Uso de CPU", f"{result['cpu_percent']}%")
-                # Memória do Processo
-                m4.metric("Memória RAM", f"{result['ram_mb']} MB")
+                # Adicionar métricas na sidebar
+                st.sidebar.markdown("---")
+                st.sidebar.subheader("🖥️ Monitoramento em Tempo Real")
+                st.sidebar.metric("⏱️ Latência", f"{result['latency_s']}s")
+                st.sidebar.metric("📊 Total de Requisições", int(result['total_requests']))
+                st.sidebar.metric("💻 Uso de CPU", f"{result['cpu_percent']}%")
+                st.sidebar.metric("🧠 Memória RAM", f"{result['ram_mb']} MB")
 
             else:
                 st.error("Erro na API")

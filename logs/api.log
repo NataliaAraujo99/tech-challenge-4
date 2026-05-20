@@ -178,3 +178,124 @@
  [4.59900017e+01 4.62999992e+01 4.55900002e+01 4.60900002e+01
   4.09187000e+07]]
 2026-05-19 21:19:04,791 - INFO - Predict: 41.8622 | ResTime: 0.2923s | CPU: 0.0%
+2026-05-19 21:34:24,721 - INFO - Input Shape: (60, 5) | Últimos valores:
+[[4.50999985e+01 4.64599991e+01 4.44700012e+01 4.64399986e+01
+  5.73882000e+07]
+ [4.59900017e+01 4.62999992e+01 4.55900002e+01 4.60900002e+01
+  4.09187000e+07]]
+2026-05-19 21:34:24,817 - INFO - Predict: 41.8622 | ResTime: 0.0959s | CPU: 0.0%
+2026-05-19 21:36:29,825 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-05-19 21:39:51,819 - INFO - Input Shape: (60, 5) | Últimos valores:
+[[4.50999985e+01 4.64599991e+01 4.44700012e+01 4.64399986e+01
+  5.73882000e+07]
+ [4.59900017e+01 4.62999992e+01 4.55900002e+01 4.60900002e+01
+  4.09187000e+07]]
+2026-05-19 21:39:52,191 - INFO - Predict: 42.6350 | ResTime: 0.3732s | CPU: 0.0%
+2026-05-19 21:39:58,894 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-05-19 21:41:56,863 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-05-19 21:41:57,795 - INFO - Input Shape: (60, 5) | Últimos valores:
+[[4.50999985e+01 4.64599991e+01 4.44700012e+01 4.64399986e+01
+  5.73882000e+07]
+ [4.59900017e+01 4.62999992e+01 4.55900002e+01 4.60900002e+01
+  4.09187000e+07]]
+2026-05-19 21:41:58,145 - INFO - Predict: 42.6350 | ResTime: 0.3510s | CPU: 0.0%
+2026-05-19 21:42:55,054 - INFO - Input Shape: (60, 5) | Últimos valores:
+[[4.50999985e+01 4.64599991e+01 4.44700012e+01 4.64399986e+01
+  5.73882000e+07]
+ [4.59900017e+01 4.62999992e+01 4.55900002e+01 4.60900002e+01
+  4.09187000e+07]]
+2026-05-19 21:42:55,139 - INFO - Predict: 42.6350 | ResTime: 0.0853s | CPU: 0.0%
+2026-05-19 21:43:01,540 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-05-19 21:44:03,155 - INFO - Input Shape: (60, 5) | Últimos valores:
+[[4.50999985e+01 4.64599991e+01 4.44700012e+01 4.64399986e+01
+  5.73882000e+07]
+ [4.59900017e+01 4.62999992e+01 4.55900002e+01 4.60900002e+01
+  4.09187000e+07]]
+2026-05-19 21:44:03,522 - INFO - Predict: 42.6350 | ResTime: 0.3674s | CPU: 0.0%
+2026-05-19 21:44:10,407 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-05-19 21:44:10,495 - INFO - Input Shape: (60, 5) | Últimos valores:
+[[4.50999985e+01 4.64599991e+01 4.44700012e+01 4.64399986e+01
+  5.73882000e+07]
+ [4.59900017e+01 4.62999992e+01 4.55900002e+01 4.60900002e+01
+  4.09187000e+07]]
+2026-05-19 21:44:10,812 - INFO - Predict: 42.6350 | ResTime: 0.3172s | CPU: 0.0%
+2026-05-19 21:45:49,836 - INFO - Input Shape: (60, 5) | Últimos valores:
+[[4.50999985e+01 4.64599991e+01 4.44700012e+01 4.64399986e+01
+  5.73882000e+07]
+ [4.59900017e+01 4.62999992e+01 4.55900002e+01 4.60900002e+01
+  4.09187000e+07]]
+2026-05-19 21:45:49,919 - INFO - Predict: 42.6350 | ResTime: 0.0827s | CPU: 0.0%
+2026-05-19 21:45:57,050 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-05-19 21:47:09,371 - INFO - Input Shape: (60, 5) | Últimos valores:
+[[4.50999985e+01 4.64599991e+01 4.44700012e+01 4.64399986e+01
+  5.73882000e+07]
+ [4.59900017e+01 4.62999992e+01 4.55900002e+01 4.60900002e+01
+  4.09187000e+07]]
+2026-05-19 21:47:09,754 - INFO - Predict: 42.6350 | ResTime: 0.3838s | CPU: 0.0%
+2026-05-19 21:47:17,583 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-05-19 21:47:24,085 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-05-19 21:50:48,659 - INFO - Input Shape: (60, 5) | Últimos valores:
+[[4.50999985e+01 4.64599991e+01 4.44700012e+01 4.64399986e+01
+  5.73882000e+07]
+ [0.00000000e+00 0.00000000e+00 0.00000000e+00 4.60900002e+01
+  0.00000000e+00]]
+2026-05-19 21:50:49,026 - INFO - Predict: 38.6995 | ResTime: 0.3675s | CPU: 0.0%
+2026-05-19 21:50:55,405 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-05-19 21:51:11,862 - INFO - Input Shape: (60, 5) | Últimos valores:
+[[4.50999985e+01 4.64599991e+01 4.44700012e+01 4.64399986e+01
+  5.73882000e+07]
+ [0.00000000e+00 0.00000000e+00 0.00000000e+00 4.60900002e+01
+  0.00000000e+00]]
+2026-05-19 21:51:12,199 - INFO - Predict: 38.6995 | ResTime: 0.3379s | CPU: 0.0%
+2026-05-19 21:51:13,138 - INFO - Input Shape: (60, 5) | Últimos valores:
+[[4.50999985e+01 4.64599991e+01 4.44700012e+01 4.64399986e+01
+  5.73882000e+07]
+ [0.00000000e+00 0.00000000e+00 0.00000000e+00 4.60900002e+01
+  0.00000000e+00]]
+2026-05-19 21:51:13,213 - INFO - Predict: 38.6995 | ResTime: 0.0752s | CPU: 0.0%
+2026-05-19 21:51:14,339 - INFO - Input Shape: (60, 5) | Últimos valores:
+[[4.50999985e+01 4.64599991e+01 4.44700012e+01 4.64399986e+01
+  5.73882000e+07]
+ [0.00000000e+00 0.00000000e+00 0.00000000e+00 4.60900002e+01
+  0.00000000e+00]]
+2026-05-19 21:51:14,411 - INFO - Predict: 38.6995 | ResTime: 0.0716s | CPU: 0.0%
+2026-05-19 21:51:15,215 - INFO - Input Shape: (60, 5) | Últimos valores:
+[[4.50999985e+01 4.64599991e+01 4.44700012e+01 4.64399986e+01
+  5.73882000e+07]
+ [0.00000000e+00 0.00000000e+00 0.00000000e+00 4.60900002e+01
+  0.00000000e+00]]
+2026-05-19 21:51:15,290 - INFO - Predict: 38.6995 | ResTime: 0.0750s | CPU: 0.0%
+2026-05-19 21:51:58,753 - INFO - Input Shape: (60, 5) | Últimos valores:
+[[4.50999985e+01 4.64599991e+01 4.44700012e+01 4.64399986e+01
+  5.73882000e+07]
+ [0.00000000e+00 0.00000000e+00 0.00000000e+00 4.60900002e+01
+  0.00000000e+00]]
+2026-05-19 21:51:58,836 - INFO - Predict: 38.6995 | ResTime: 0.0833s | CPU: 0.0%
+2026-05-19 21:52:05,621 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-05-19 21:52:41,150 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-05-19 21:54:33,376 - INFO - Input Shape: (60, 5) | Últimos valores:
+[[4.50999985e+01 4.64599991e+01 4.44700012e+01 4.64399986e+01
+  5.73882000e+07]
+ [0.00000000e+00 0.00000000e+00 0.00000000e+00 4.60900002e+01
+  0.00000000e+00]]
+2026-05-19 21:54:33,752 - INFO - Predict: 38.6995 | ResTime: 0.3769s | CPU: 0.0%
+2026-05-19 21:57:25,750 - INFO - Input Shape: (60, 5) | Últimos valores:
+[[ 0.90715456  0.92382161  0.90293647  0.93714993  0.11706373]
+ [-0.06779445 -0.07411614 -0.06704513  0.92956462  0.        ]]
+2026-05-19 21:57:25,816 - INFO - Predict: 2.3751 | ResTime: 0.0663s | CPU: 0.0%
+2026-05-19 21:57:32,393 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-05-19 21:58:36,170 - INFO - Input Shape: (60, 5) | Últimos valores:
+[[4.50999985e+01 4.64599991e+01 4.44700012e+01 4.64399986e+01
+  5.73882000e+07]
+ [0.00000000e+00 0.00000000e+00 0.00000000e+00 4.60900002e+01
+  0.00000000e+00]]
+2026-05-19 21:58:36,527 - INFO - Predict: 19.5645 | ResTime: 0.3577s | CPU: 0.0%
+2026-05-19 21:58:42,992 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-05-19 22:00:06,894 - INFO - Input Shape: (60, 5) | Últimos valores:
+[[4.53899994e+01 4.55400009e+01 4.49799995e+01 4.54700012e+01
+  5.93805000e+07]
+ [4.50999985e+01 4.64599991e+01 4.44700012e+01 4.64399986e+01
+  5.73882000e+07]]
+2026-05-19 22:00:07,716 - INFO - Prediction scaled: 0.8496503829956055 | Prediction real: 42.40263075400344
+2026-05-19 22:00:07,716 - INFO - Predict: 42.4026 | ResTime: 0.8222s | CPU: 0.0%
+2026-05-19 22:00:13,958 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.

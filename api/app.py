@@ -113,6 +113,8 @@ async def predict(data: InputData):
             # Assumindo 'Close' no índice 3 (Open=0, High=1, Low=2, Close=3, Volume=4)
             dummy[0, 3] = prediction_scaled[0][0]
             prediction_real = scaler.inverse_transform(dummy)[0, 3]
+            
+            logging.info(f"Prediction scaled: {prediction_scaled[0][0]} | Prediction real: {prediction_real}")
 
             response_time = time.time() - start_time
             PREDICT_RESPONSE_TIME_SECONDS.observe(response_time)
