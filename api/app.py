@@ -63,8 +63,27 @@ def get_process_metrics():
     ram = process.memory_info().rss / (1024 * 1024)  # Convert to MB
     return cpu, ram
 
-@app.post("/predict")
+@app.post("/predict", summary="Predição de Preço (LSTM)", tags=["Predictions"])
 async def predict(data: InputData):
+    """
+    Realiza predição do preço de fechamento (Close) usando modelo LSTM.
+    
+    **Descrição:**
+    - Recebe histórico de dados OHLCV (Open, High, Low, Close, Volume) normalizados
+    - Processa os dados com o scaler treinado
+    - Executa predição usando rede neural LSTM
+    - Retorna o preço predito com métricas de performance (latência, CPU, memória)
+    
+    **Entrada:**
+    - `data`: Lista de listas com valores OHLCV. Ex: [[open, high, low, close, volume], ...]
+    
+    **Saída:**
+    - `prediction`: Preço de fechamento predito
+    - `latency_s`: Tempo de resposta em segundos
+    - `cpu_percent`: Uso de CPU do processo em %
+    - `ram_mb`: Uso de memória RAM em MB
+    - `total_requests`: Total de requisições processadas
+    """
     start_time = time.time()
     PREDICT_REQUESTS_TOTAL.inc()
     
